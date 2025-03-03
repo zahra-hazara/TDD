@@ -3,7 +3,7 @@ import java.util.Map;
 
 public class ShoppingCart {
 
-    private Map<String, Double> items;
+    private final Map<String, Double> items;
 
     public ShoppingCart() {
         items = new HashMap<>();
